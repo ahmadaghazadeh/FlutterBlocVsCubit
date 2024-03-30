@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_pizza_bloc/bloc/counter_bloc.dart';
+import 'package:flutter_pizza_bloc/bloc_cubit/bloc/counter_bloc.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
-import 'package:flutter_pizza_bloc/cubit/counter_cubit.dart';
+import 'package:flutter_pizza_bloc/bloc_cubit/cubit/counter_cubit.dart';
 class IncDecPage extends StatelessWidget {
   const IncDecPage({super.key});
 
