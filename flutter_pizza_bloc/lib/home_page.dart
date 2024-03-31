@@ -27,6 +27,12 @@ class MyHomePage  extends StatelessWidget {
                   child: ElevatedButton( onPressed: () {
                     Navigator.pushNamed(context, TODO_LIST);
                   }, child: const Text("TODO List"),),
+                ),
+                Padding(
+                  padding: const EdgeInsets.all(8.0),
+                  child: ElevatedButton( onPressed: () {
+                    Navigator.pushNamed(context, LOGIN_PAGE);
+                  }, child: const Text("Login Page"),),
                 )
               ],
             ),
