@@ -5,3 +5,4 @@ const String ADD_TODO_PAGE="/add-todo";
 const String TODO_LIST="/todo-list";
 const String LOGIN_PAGE="/login";
 const String LOGIN_HOME_PAGE="/login-home";
+const String WEATHER_SCREEN="/weather";
